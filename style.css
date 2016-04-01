@@ -1,0 +1,43 @@
+/* スタイルシート内にアスキー文字以外を記述する時にはcharsetを記述するみたい */
+@charset "UTF-8";
+body {
+	 margin: 5%;
+	 font-family: Osaka, Courier New, sans-serif;
+	 color:#575757;
+}
+
+h2{
+ 	margin: 2em 0em 0em 0em;
+ 	padding: 0.2em 0.5em;
+	 background-color:#DAA520;
+	top:35px;
+	left:50px;
+}
+p{
+	text-indent: 1em;
+}
+table { 
+	table-layout:auto;
+	 width: 300px; 
+	white-space: nowrap;
+	border-collapse:collapse;
+	border-style: solid;
+	border: 2px #DAA520 solid;
+}
+th { 
+	border-collapse:collapse;
+	border: 2px #DAA520 solid;
+	padding:10px;
+	background-color:#FFEBCD;
+}
+td { 
+	border-collapse:collapse;
+	border: 2px #DAA520 solid;
+	padding:10px;
+}
+tr { 
+	border-collapse:collapse;
+	border: 2px #DAA520 solid;
+	padding:10px;
+}
+
